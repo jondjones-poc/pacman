@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --primary: #000;
+    --background: #fff;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color:var(--primary);
+    color: var(--background);
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: white;
+    border: 5px solid var(--primary);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+    border-radius: unset;
+    border: none;
+}
+
+.pinky {
+    background-color: pink;
+    border-radius: unset;
+    border: none;
+}
+
+.inky {
+    background-color: cyan;
+    border-radius: unset;
+    border: none;
+}
+
+.clyde {
+    background-color: orange;   
+    border-radius: unset;
+    border: none;  
+}
+
+.pac-man {
+    background-color: yellow; 
+    border-radius: 15px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+}
